@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Dev :lab1</title>
+    <style>
+        .style1 {
+            color: red;
+        }
+        .style2 {
+            color: green;
+            font-size: 16px;
+            font-weight: bold;
+            font-family: 'Cambria';
+        }
+        .style3 {
+            color:black;
+            font-size: 14px;
+        }
+        .style4 {
+            width: 250px;
+            height: 250px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 align="center">Welcome to my Web Site</h1>
+    <h3 align="center" class="style1"><u>Web Development (Lab1)</u></h3>
+
+    <hr>
+
+    <div style="display: flex; align-items: flex-start;">
+
+        <div>
+            <p class="style2"><b>Full name:</b> <span class="style3">علي عطاءالله</span></p>
+            <p class="style2"><b>Age:</b> <span class="style3">21 سنة</span></p>
+            <p class="style2"><b>Class:</b> <span class="style3"></sup> LMD 2 علوم الحاسوب</span></p>
+            <p class="style2"><b>University:</b> <span class="style3">جامعة الوادي</span></p>
+        </div>
+
+        <img src="data:image/png;base64,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" class="style4" style="margin-left: 50px;">
+
+    </div>
+
+</body>
+</html>
